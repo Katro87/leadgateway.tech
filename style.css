@@ -514,7 +514,7 @@ tbody td {
   }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 899px) {
   .card-grid,
   .benefits,
   .steps,
@@ -588,6 +588,6 @@ tbody td {
   }
 
   table {
-    min-width: 560px;
+    min-width: 480px;
   }
 }

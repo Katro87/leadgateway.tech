@@ -30,6 +30,7 @@ body {
   background-repeat: no-repeat, repeat;
   background-position: top right, center;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 img {
@@ -267,12 +268,14 @@ a {
 
 .table-wrap {
   max-width: var(--container);
+  width: 100%;
   margin: 0 auto;
   padding: 24px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
 }
 
 table {

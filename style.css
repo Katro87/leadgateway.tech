@@ -277,6 +277,7 @@ a {
 
 table {
   width: 100%;
+  min-width: 600px;
   border-collapse: collapse;
   font-size: 0.95rem;
 }
@@ -584,9 +585,5 @@ tbody td {
 
   .table-wrap {
     padding: 16px;
-  }
-
-  table {
-    min-width: 450px;
   }
 }

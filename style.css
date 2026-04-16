@@ -30,7 +30,6 @@ body {
   background-repeat: no-repeat, repeat;
   background-position: top right, center;
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 img {
@@ -588,6 +587,6 @@ tbody td {
   }
 
   table {
-    min-width: 480px;
+    min-width: 450px;
   }
 }
